@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "paths": {
+      "src/*": ["src/*"],
+      "@Services/*": ["src/services/*"],
+      "@Models/*": ["src/models/*"],
+      "@Schemas/*": ["src/schemas/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
